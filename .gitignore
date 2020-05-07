@@ -4,3 +4,6 @@ lib/ivy/**/*.jar
 /target
 .idea
 *.iml
+.settings
+.classpath
+.project
