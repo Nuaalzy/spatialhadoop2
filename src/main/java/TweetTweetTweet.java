@@ -111,4 +111,7 @@ public class TweetTweetTweet implements Shape {
   public double distanceTo(double x, double y) {
     return Math.min(tweet1.distanceTo(x, y), tweet2.distanceTo(x, y));
   }
+  public boolean contains(double x,double y){
+    throw new RuntimeException("Not implemented yet");
+    }
 }

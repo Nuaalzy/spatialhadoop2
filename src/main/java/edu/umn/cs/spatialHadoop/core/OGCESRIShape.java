@@ -257,4 +257,7 @@ public class OGCESRIShape implements Shape {
       throw new RuntimeException("Cannot draw a shape of type "+geom.getClass());
     }
   }
+  public boolean contains(double x,double y){
+    throw new RuntimeException("Not implemented yet");
+    }
 }

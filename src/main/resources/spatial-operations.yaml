@@ -4,6 +4,7 @@
 - edu.umn.cs.spatialHadoop.indexing.Indexer
 - edu.umn.cs.spatialHadoop.indexing.IndexInsert
 - edu.umn.cs.spatialHadoop.operations.RangeQuery
+- edu.umn.cs.spatialHadoop.operations.RangeQuery2
 - edu.umn.cs.spatialHadoop.operations.KNN
 - edu.umn.cs.spatialHadoop.operations.SJMR
 - edu.umn.cs.spatialHadoop.operations.DistributedJoin

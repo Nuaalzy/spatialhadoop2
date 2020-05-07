@@ -174,4 +174,7 @@ public class OSMEdge implements Shape {
     int y2 = (int) Math.round(this.lat2 * yscale);
     g.drawLine(x1, y1, x2, y2);
   }
+  public boolean contains(double x,double y){
+    throw new RuntimeException("Not implemented yet");
+    }
 }

@@ -129,4 +129,13 @@ public class Polygon extends java.awt.Polygon implements Shape {
   public void draw(Graphics g, double xscale, double yscale) {
     throw new RuntimeException("Not implemented yet");
   }
+  // 查询点是否包含在多边形中
+  @Override
+  public boolean contains(double x,double y) {
+    return super.contains(x, y);
+  }
+  
+  public boolean contains(Point p){
+    return this.contains(p.x,p.y);
+  }
 }
