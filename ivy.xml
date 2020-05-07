@@ -14,10 +14,10 @@
 	</configurations>
     
   <dependencies>
-    <dependency org="org.apache.hadoop" name="hadoop-common" rev="2.6.0" conf="hadoop->default"/>
-    <dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="2.6.0" conf="hadoop->default"/>
-    <dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-common" rev="2.6.0" conf="hadoop->default"/>
-    <dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-core" rev="2.6.0" conf="hadoop->default"/>
+    <dependency org="org.apache.hadoop" name="hadoop-common" rev="2.10.0" conf="hadoop->default"/>
+    <dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="2.10.0" conf="hadoop->default"/>
+    <dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-common" rev="2.10.0" conf="hadoop->default"/>
+    <dependency org="org.apache.hadoop" name="hadoop-mapreduce-client-core" rev="2.10.0" conf="hadoop->default"/>
         
     <dependency org="com.vividsolutions" name="jts" rev="1.8" conf="common->default"/>
     <dependency org="com.esri.geometry" name="esri-geometry-api" rev="1.2" conf="common->default"/>

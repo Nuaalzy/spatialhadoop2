@@ -66,4 +66,6 @@ public interface Shape extends Writable, Cloneable, TextSerializable {
    * @param yscale - scale of the image y-axis in terms of pixels per points.
    */
   public void draw(Graphics g, double xscale, double yscale);
+
+  public boolean contains(double x,double y);
 }

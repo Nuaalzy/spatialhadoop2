@@ -326,5 +326,9 @@ public class OGCJTSShape implements Shape {
       graphics.drawPolyline(xpoints, ypoints, xpoints.length);
     }
   }
+
+  public boolean contains(double x,double y){
+    throw new RuntimeException("Not implemented yet");
+    }
   
 }

@@ -3,6 +3,7 @@
 # Short names for common shapes
 Shapes:
   point: edu.umn.cs.spatialHadoop.core.Point
+  polygon: edu.umn.cs.spatialHadoop.core.Polygon
   rect: edu.umn.cs.spatialHadoop.core.Rectangle
   wkt: edu.umn.cs.spatialHadoop.core.OGCJTSShape
   tiger: edu.umn.cs.spatialHadoop.TigerShape

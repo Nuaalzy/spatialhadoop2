@@ -178,4 +178,8 @@ public class Point implements Shape, Comparable<Point> {
     g.fillRect(imgx, imgy, 1, 1);
   }
 
+  public boolean contains(double x,double y){
+	throw new RuntimeException("Not implemented yet");
+  }
+
 }

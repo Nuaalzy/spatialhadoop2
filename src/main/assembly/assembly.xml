@@ -18,7 +18,7 @@
     <!-- Include README and LICENSE files -->
     <fileSet>
       <directory>${project.basedir}</directory>
-      <outputDirectory>/</outputDirectory>
+      <outputDirectory>./</outputDirectory>
       <includes>
         <include>README*</include>
         <include>LICENSE*</include>
