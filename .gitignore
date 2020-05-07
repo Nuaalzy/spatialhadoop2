@@ -7,3 +7,4 @@ lib/ivy/**/*.jar
 .settings
 .classpath
 .project
+.vscode

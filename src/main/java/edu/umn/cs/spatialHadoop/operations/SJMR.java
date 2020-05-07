@@ -60,7 +60,7 @@ import edu.umn.cs.spatialHadoop.util.Progressable;
  * An implementation of Spatial Join MapReduce as described in
  * S. Zhang, J. Han, Z. Liu, K. Wang, and Z. Xu. SJMR:
  * Parallelizing spatial join with MapReduce on clusters. In
- * CLUSTER, pages 1â€“8, New Orleans, LA, Aug. 2009.
+ * CLUSTER, pages 1¨C8, New Orleans, LA, Aug. 2009.
  * The map function partitions data into grid cells and the reduce function
  * makes a plane-sweep over each cell.
  * @author eldawy
